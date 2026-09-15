@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://alekspasseo.github.io/kafe-bar-che/sitemap.xml
