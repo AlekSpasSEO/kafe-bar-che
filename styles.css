@@ -70,6 +70,15 @@ button { font: inherit; }
 .site-nav a { position: relative; }
 .site-nav a::before { content: ""; position: absolute; left: 0; right: 100%; bottom: -.42rem; height: 2px; background: var(--red); transition: right .25s; }
 .site-nav a:hover::before { right: 0; }
+.site-nav .lang-switch {
+  padding: .18rem .48rem;
+  color: var(--white);
+  background: var(--ink);
+  border: 2px solid var(--ink);
+  border-radius: 999px;
+}
+.site-nav .lang-switch::before { display: none; }
+.site-nav .lang-switch:hover { color: var(--ink); background: var(--blue); }
 .header-meta { display: flex; align-items: center; gap: .55rem; font-family: "Montserrat", sans-serif; font-size: .67rem; font-weight: 700; letter-spacing: .05em; text-transform: uppercase; }
 .status-dot { width: 9px; height: 9px; background: #62b978; border-radius: 50%; box-shadow: 0 0 0 4px rgba(98,185,120,.15); }
 .status-dot.closed { background: var(--red); box-shadow: 0 0 0 4px rgba(217,91,69,.15); }
